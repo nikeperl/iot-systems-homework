@@ -1,0 +1,2 @@
+vk-api
+paho-mqtt>=2,<3

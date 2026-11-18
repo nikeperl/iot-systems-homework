@@ -1,0 +1,39 @@
+# Local credentials and device activation data
+secrets.h
+.env
+.env.*
+!.env.example
+storage.json
+*.pem
+*.key
+
+# Installed dependencies
+node_modules/
+/libraries/
+.venv/
+venv/
+
+# Generated firmware and build output (may contain local credentials)
+build/
+dist/
+*.bin
+*.elf
+*.hex
+*.map
+*.o
+*.a
+
+# Python caches and logs
+__pycache__/
+*.py[cod]
+*.log
+.pytest_cache/
+
+# OS and editor files
+.DS_Store
+._*
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo

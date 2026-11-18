@@ -1,0 +1,12 @@
+{
+  "name": "iot-ota-server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ESP8266 firmware and LittleFS OTA update server",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "iot-ota-firmware-server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ESP8266 firmware-only OTA update server",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
